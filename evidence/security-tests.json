@@ -1,0 +1,197 @@
+{
+  "version": "1.0.0",
+  "date_utc": "2026-11-09T18:16:09Z",
+  "platform": "macOS-27.2-arm64-arm-64bit",
+  "tests_run": 37,
+  "failures": 0,
+  "errors": 0,
+  "fixture_bcrypt_rounds": 4,
+  "production_default_bcrypt_rounds": 12,
+  "records": [
+    {
+      "test": "__main__.ReferenceTests.test_01_text_round_trip",
+      "status": "passed",
+      "seconds": 0.05906391699954838
+    },
+    {
+      "test": "__main__.ReferenceTests.test_02_empty_round_trip",
+      "status": "passed",
+      "seconds": 0.032984125000439235
+    },
+    {
+      "test": "__main__.ReferenceTests.test_03_unicode_round_trip",
+      "status": "passed",
+      "seconds": 0.03232420799940883
+    },
+    {
+      "test": "__main__.ReferenceTests.test_04_maximum_file",
+      "status": "passed",
+      "seconds": 0.09434212500036665
+    },
+    {
+      "test": "__main__.ReferenceTests.test_05_oversize_rejected",
+      "status": "passed",
+      "seconds": 0.03640858400012803
+    },
+    {
+      "test": "__main__.ReferenceTests.test_06_ciphertext_mutation",
+      "status": "passed",
+      "seconds": 0.029385625000031723
+    },
+    {
+      "test": "__main__.ReferenceTests.test_07_tag_mutation_with_valid_signature",
+      "status": "passed",
+      "seconds": 0.03037404200040328
+    },
+    {
+      "test": "__main__.ReferenceTests.test_08_nonce_mutation_with_valid_signature",
+      "status": "passed",
+      "seconds": 0.030202375000044412
+    },
+    {
+      "test": "__main__.ReferenceTests.test_09_wrapped_key_mutation",
+      "status": "passed",
+      "seconds": 0.03000854200035974
+    },
+    {
+      "test": "__main__.ReferenceTests.test_10_signature_mutation",
+      "status": "passed",
+      "seconds": 0.03046891699978005
+    },
+    {
+      "test": "__main__.ReferenceTests.test_11_each_header_field_mutation",
+      "status": "passed",
+      "seconds": 0.02772670800004562
+    },
+    {
+      "test": "__main__.ReferenceTests.test_12_unknown_field_and_algorithm_rejected",
+      "status": "passed",
+      "seconds": 0.029215417000159505
+    },
+    {
+      "test": "__main__.ReferenceTests.test_13_wrong_recipient",
+      "status": "passed",
+      "seconds": 0.027800124999885156
+    },
+    {
+      "test": "__main__.ReferenceTests.test_14_sender_substitution",
+      "status": "passed",
+      "seconds": 0.02877054200052953
+    },
+    {
+      "test": "__main__.ReferenceTests.test_15_first_contact_requires_verified_fingerprint",
+      "status": "passed",
+      "seconds": 0.03241541699935624
+    },
+    {
+      "test": "__main__.ReferenceTests.test_16_changed_key_blocked",
+      "status": "passed",
+      "seconds": 0.03205404100026499
+    },
+    {
+      "test": "__main__.ReferenceTests.test_17_client_replay_rejected_after_restart",
+      "status": "passed",
+      "seconds": 0.03453658299986273
+    },
+    {
+      "test": "__main__.ReferenceTests.test_18_relay_replay_rejected_after_restart",
+      "status": "passed",
+      "seconds": 0.033720165999511664
+    },
+    {
+      "test": "__main__.ReferenceTests.test_19_cross_account_read_blocked",
+      "status": "passed",
+      "seconds": 0.0343853329995909
+    },
+    {
+      "test": "__main__.ReferenceTests.test_20_cross_account_send_and_delete_blocked",
+      "status": "passed",
+      "seconds": 0.030501124999318563
+    },
+    {
+      "test": "__main__.ReferenceTests.test_21_missing_and_expired_token",
+      "status": "passed",
+      "seconds": 0.027840708000439918
+    },
+    {
+      "test": "__main__.ReferenceTests.test_22_wrong_audience_and_algorithm",
+      "status": "passed",
+      "seconds": 0.029114625000147498
+    },
+    {
+      "test": "__main__.ReferenceTests.test_23_totp_reuse_rejected",
+      "status": "passed",
+      "seconds": 0.02961129199957213
+    },
+    {
+      "test": "__main__.ReferenceTests.test_24_wrong_password_and_totp_rate_limit",
+      "status": "passed",
+      "seconds": 0.04517762500017852
+    },
+    {
+      "test": "__main__.ReferenceTests.test_25_logout_revokes_token",
+      "status": "passed",
+      "seconds": 0.02915266700074426
+    },
+    {
+      "test": "__main__.ReferenceTests.test_26_enrolment_protected",
+      "status": "passed",
+      "seconds": 0.026737416999822017
+    },
+    {
+      "test": "__main__.ReferenceTests.test_27_storage_contains_no_seeded_content",
+      "status": "passed",
+      "seconds": 0.028961334000086936
+    },
+    {
+      "test": "__main__.ReferenceTests.test_28_vault_round_trip_and_wrong_password",
+      "status": "passed",
+      "seconds": 0.32897729100022843
+    },
+    {
+      "test": "__main__.ReferenceTests.test_29_long_term_compromise_exposes_recorded_message",
+      "status": "passed",
+      "seconds": 0.03273758299928886
+    },
+    {
+      "test": "__main__.ReferenceTests.test_30_python_to_webcrypto",
+      "status": "passed",
+      "seconds": 0.185907541999768
+    },
+    {
+      "test": "__main__.ReferenceTests.test_31_webcrypto_to_python",
+      "status": "passed",
+      "seconds": 0.08242608300042775
+    },
+    {
+      "test": "__main__.ReferenceTests.test_32_webcrypto_rejects_tampering",
+      "status": "passed",
+      "seconds": 0.08050208300028316
+    },
+    {
+      "test": "__main__.ReferenceTests.test_33_relay_rejects_tampered_signature",
+      "status": "passed",
+      "seconds": 0.03184895899994444
+    },
+    {
+      "test": "__main__.ReferenceTests.test_34_ciphertext_persists_after_restart",
+      "status": "passed",
+      "seconds": 0.035482375000356114
+    },
+    {
+      "test": "__main__.ReferenceTests.test_35_request_limit",
+      "status": "passed",
+      "seconds": 0.028184124999825144
+    },
+    {
+      "test": "__main__.ReferenceTests.test_36_totp_reuse_rejected_after_restart",
+      "status": "passed",
+      "seconds": 0.034144166999794834
+    },
+    {
+      "test": "__main__.ReferenceTests.test_37_cli_pin_send_receive_with_cached_sessions",
+      "status": "passed",
+      "seconds": 0.5123921669992342
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "date_utc": "2026-11-09T18:12:39Z",
+  "transport": "live HTTP loopback, no TLS",
+  "bcrypt_rounds": 12,
+  "registration": true,
+  "vault_reload": true,
+  "totp_login": true,
+  "verified_pinning": true,
+  "send_and_receive": true,
+  "file_bytes_equal": true,
+  "replay_rejected_after_client_restart": true,
+  "recipient_delete": true,
+  "synthetic_payload_bytes": 58
+}

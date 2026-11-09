@@ -1,0 +1,29 @@
+{
+  "version": "1.0.0",
+  "repository": "https://github.com/AMG2020/Humanitarian-Messaging",
+  "algorithm": "sha256",
+  "files": {
+    ".github/workflows/reproduce.yml": "62b7af99556e6fbbf587c462e94ff236e90cb14185a3ad5fa23e535e54146a40",
+    ".gitignore": "159e5a53c7b1b2e88074b714c2b9dd5b5639fb77905a60d7937f3a1daf28b6bb",
+    "PRE_SUBMISSION.md": "bc4d7db1f86903b4f75dc3272f60858b838e32e4d99371feceae8e1c8f3f6c20",
+    "PROTOCOL.md": "ccb22fe1a5213c70fad1a28c0ea2ac0ca292eba8c6aaaab79ede37cbd87bebba",
+    "PUBLISHING.md": "6958ea3568b641b904fca07c4149da3d7996a48f2fd6b0a2bd3ca58dd7111fef",
+    "README.md": "fa664650a589f387d8afc5337fbb31b5bef59bfb9a58c899f0d07bb0ef43771d",
+    "benchmark.py": "4cd3a59a283ddc61579a9dac705cdbf1d2ae834413376d60111e3a1f1f7eeb6f",
+    "demo.py": "967c470bee3c7851634fd545ace39806048165c11c8b867ec1fc820b584ae670",
+    "docs/DEMONSTRATION.md": "e17f1f28b89225325597169aa399809ae0c60e0c84bcc2fbeff94ef5b6424921",
+    "evidence/benchmark-raw.csv": "372525cf93bfa10c72366b9f57bf5cf554c8decbd2a72cdb999eec3cc20db52d",
+    "evidence/benchmark-summary.json": "6a34a7604d3736a5b1e21b40a8e68d0284f5d574aa76204464b4c7a92778cd57",
+    "evidence/http-demo.json": "6758f0a5a36b7cff651608ef76b113c391df2c13cfc55324fed7bce23f123374",
+    "evidence/security-tests.json": "3e33fa47386aa9bf6065f10e1229ae3631f501ef04f717258a5859423b9592d4",
+    "humanmsg/__init__.py": "93fdcce2946da3955d7f6760951af35d8775b9ea16667a868fe31a80aa7cf1ef",
+    "humanmsg/cli.py": "589c2abf7254e418d6e2942d447ec01545d21d6f1c1ff6ef1f2b8e8e299e51f8",
+    "humanmsg/protocol.py": "4539d6629c8dc6648637fb219a06a9964ad1c5966580a7a4d11bb7731c7e4600",
+    "humanmsg/server.py": "a4c9518c1d8461bf799e56f57dc4a9d4563e787c4b4d095af4d855ad2b706908",
+    "paper/Humanitarian_Messaging_SMARTCOM_2027_Final.docx": "d719fb64499cd285b87bfbde68a07b60072f10932ff56364abc9f5c0d9e8bcb0",
+    "requirements.txt": "2458a6b176e44b8da8acba14e52621a8605ecb106f03b600ba5bdb6734df7fb4",
+    "tests/test_reference.py": "32b3819f953b279d4828f38aabb5b941b363714ba3591ead7fb124442f479648",
+    "web/interop.mjs": "ed14a0d3719c41b318d4b73bae4bf362a26a8e7eaf5e6d07339b4b437822367b",
+    "web/protocol.mjs": "7fdebb6cf67608e81fa16849854b2203f9800be922098908a04890d676c06e0c"
+  }
+}
